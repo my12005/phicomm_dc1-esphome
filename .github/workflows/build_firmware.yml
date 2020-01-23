@@ -56,7 +56,6 @@ jobs:
           find . -name ${basename}_firmware.bin  -exec cp {} ${bin_output_path} \;
           echo "Done"
         done
-
         ls -l /home/runner/work/bin/
 
     - name : Upload artifact
